@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+}
+
+main {
+  display: flex;
+  width: 77%;
+  margin: auto;
+  font-family: Poppins;
+  margin-top: 100px;
+}
+
+.form,
+.learn {
+  margin: 2em;
+  width: 100%;
+}
+
+form {
+  margin-top: 0.5em;
+  width: 100%;
+  background-color: #fefeff;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0px 5px hsl(350, 46%, 60%);
+}
+input {
+  margin: 0.5em;
+  width: 95%;
+  padding: 1em;
+  border-radius: 5px;
+  border: #f5f5f4 solid 0.5px;
+}
+
+.button {
+  background-color: hsl(154, 59%, 51%);
+  color: #fefeff;
+  border-bottom: hsl(154, 100%, 30%) solid 2px;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: hsl(154, 59%, 71%);
+}
+
+h2 {
+  margin-bottom: 0.5em;
+  color: #fefeff;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  color: #fefeff;
+  box-shadow: 0px 10px hsl(350, 46%, 60%);
+}
+.learn {
+  margin-top: 150px;
+}
+
+.learn p {
+  color: #fefeff;
+}
+
+span {
+  color: hsl(0, 100%, 74%);
+}
+
+small {
+  font-size: 7px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+}
