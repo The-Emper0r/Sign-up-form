@@ -88,13 +88,32 @@ small {
   margin: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
+  .learn h2 {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .learn {
+    margin-top: 100px;
+  }
+  .learn p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 700px) {
   main {
     flex-direction: column;
-   padding-right: 3em;
+    margin: auto;
+    padding-right: 3em;
   }
   .learn {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .form {
+    margin-bottom: 1em;
   }
   div {
     width: 100%;
